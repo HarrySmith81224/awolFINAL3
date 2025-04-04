@@ -10,7 +10,7 @@ export default auth(async (req) => {
     // Get the next URL from the request
     const { nextUrl } = req;
     // Define the base URL for redirects
-    const url = 'https://awol-six.vercel.app';
+    const url = 'https://awol-final-3.vercel.app/';
     // Check if the current route is a private route
     const isPrivateRoute = privateRoutes.includes(nextUrl.pathname);
     // Check if the current route is an authentication route

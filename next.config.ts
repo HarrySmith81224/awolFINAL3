@@ -14,9 +14,9 @@ const nextConfig = {
         headers: [
           {
             key: 'Access-Control-Allow-Origin',
-            value: process.env.NODE_ENV === 'production' 
+            value: process.env.NODE_ENV === 'development' 
               ? 'http://localhost:3000'
-              : 'https://awol-six.vercel.app'
+              : 'https://awol-final-3.vercel.app/'
           },
           {
             key: 'Access-Control-Allow-Methods',
